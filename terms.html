@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms of Service - NyaWallet</title>
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Poppins', 'sans-serif'],
+          },
+          colors: {
+            nyaPeach: '#FF8A80',
+            nyaCream: '#FFF8F3',
+            nyaMint: '#80DEEA',
+            nyaDark: '#2D1E26',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-nyaCream text-nyaDark font-sans antialiased min-h-screen flex flex-col justify-between">
+  <!-- Navigation Header -->
+  <header class="border-b border-orange-100/80 bg-white/70 backdrop-blur-md sticky top-0 z-50">
+    <div class="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center space-x-3">
+        <img src="assets/logo.png" alt="NyaWallet Logo" class="w-10 h-10 rounded-2xl shadow-sm">
+        <span class="font-bold text-xl tracking-tight text-nyaDark">NyaWallet <span class="text-xs text-nyaPeach font-medium">🐾</span></span>
+      </a>
+      <a href="index.html" class="text-sm font-medium text-gray-500 hover:text-nyaPeach transition">← Back to Home</a>
+    </div>
+  </header>
+
+  <!-- Content Container -->
+  <main class="max-w-4xl mx-auto px-6 py-12 flex-grow">
+    <div class="bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-orange-100/60">
+      <div class="inline-flex items-center space-x-2 bg-orange-50 text-nyaPeach font-semibold text-xs px-3.5 py-1.5 rounded-full mb-4">
+        <span>🐾</span>
+        <span>User Agreement & License</span>
+      </div>
+      <h1 class="text-3xl md:text-4xl font-extrabold text-nyaDark mb-3">Terms of Service</h1>
+      <p class="text-sm text-gray-500 mb-8">Effective Date: October 25, 2026</p>
+
+      <div class="space-y-8 text-gray-700 text-sm md:text-base leading-relaxed">
+        <section>
+          <h2 class="text-xl font-bold text-nyaDark mb-3">1. Acceptance of Terms</h2>
+          <p>
+            By downloading, installing, or accessing <strong>NyaWallet</strong>, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the application.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-bold text-nyaDark mb-3">2. Description of Service</h2>
+          <p>
+            NyaWallet is a personal finance tracker and budgeting tool designed to provide a cozy, offline experience. The app facilitates expense logging, wallet balance calculation, goal management, and debt tracking.
+          </p>
+          <p class="mt-2 text-sm text-gray-500 bg-gray-50 p-4 rounded-xl border border-gray-100">
+            <strong>Disclaimer:</strong> NyaWallet is intended strictly for personal organization and budgeting purposes. It does not provide certified financial, accounting, legal, or investment advice.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-bold text-nyaDark mb-3">3. Data Responsibility & Backup</h2>
+          <p>
+            Because NyaWallet is 100% offline-first, you are exclusively responsible for safeguarding your device and generating local backups. The developer cannot recover financial data lost due to device damage, uninstallation, or operating system resets without a valid user-made backup file.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-bold text-nyaDark mb-3">4. Subscriptions & In-App Purchases</h2>
+          <p>
+            NyaWallet may offer optional VIP/Premium features (such as custom themes, unlimited wallets, and ad-free experience). Payments, renewals, and cancellations are processed through Apple App Store (In-App Purchase) or Google Play Billing in accordance with platform terms.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-bold text-nyaDark mb-3">5. Intellectual Property</h2>
+          <p>
+            All mascot illustrations (Neko paw assets), logo designs, UI layouts, and brand identity are the intellectual property of <strong>HooQii</strong>.
+          </p>
+        </section>
+
+        <section class="border-t border-gray-100 pt-6">
+          <h2 class="text-xl font-bold text-nyaDark mb-2">6. Contact Support</h2>
+          <p>For any inquiries or bug reports, please email: <a href="mailto:hooqii.me@gmail.com" class="text-nyaPeach underline font-medium">hooqii.me@gmail.com</a></p>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-orange-100 bg-white/60 py-8 text-center text-xs text-gray-500">
+    <div class="max-w-4xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0">
+      <p>© 2026 NyaWallet by HooQii. All rights reserved.</p>
+      <div class="space-x-4">
+        <a href="index.html" class="hover:text-nyaPeach transition">Home</a>
+        <a href="privacy.html" class="hover:text-nyaPeach transition">Privacy Policy</a>
+        <a href="terms.html" class="text-nyaPeach font-semibold">Terms of Service</a>
+        <a href="app-ads.txt" class="hover:text-nyaPeach transition font-mono">app-ads.txt</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+

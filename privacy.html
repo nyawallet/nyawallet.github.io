@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - NyaWallet</title>
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Poppins', 'sans-serif'],
+          },
+          colors: {
+            nyaPeach: '#FF8A80',
+            nyaCream: '#FFF8F3',
+            nyaMint: '#80DEEA',
+            nyaDark: '#2D1E26',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-nyaCream text-nyaDark font-sans antialiased min-h-screen flex flex-col justify-between">
+  <!-- Navigation Header -->
+  <header class="border-b border-orange-100/80 bg-white/70 backdrop-blur-md sticky top-0 z-50">
+    <div class="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center space-x-3">
+        <img src="assets/logo.png" alt="NyaWallet Logo" class="w-10 h-10 rounded-2xl shadow-sm">
+        <span class="font-bold text-xl tracking-tight text-nyaDark">NyaWallet <span class="text-xs text-nyaPeach font-medium">🐾</span></span>
+      </a>
+      <a href="index.html" class="text-sm font-medium text-gray-500 hover:text-nyaPeach transition">← Back to Home</a>
+    </div>
+  </header>
+
+  <!-- Content Container -->
+  <main class="max-w-4xl mx-auto px-6 py-12 flex-grow">
+    <div class="bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-orange-100/60">
+      <div class="inline-flex items-center space-x-2 bg-orange-50 text-nyaPeach font-semibold text-xs px-3.5 py-1.5 rounded-full mb-4">
+        <span>🐾</span>
+        <span>Zero Personal Data Collection Policy</span>
+      </div>
+      <h1 class="text-3xl md:text-4xl font-extrabold text-nyaDark mb-3">Privacy Policy</h1>
+      <p class="text-sm text-gray-500 mb-8">Effective Date: October 25, 2026 • Last Updated: October 2026</p>
+
+      <div class="space-y-8 text-gray-700 text-sm md:text-base leading-relaxed">
+        <section>
+          <h2 class="text-xl font-bold text-nyaDark mb-3">1. Overview & Commitment to Privacy</h2>
+          <p>
+            Welcome to <strong>NyaWallet</strong> ("we", "our", or "the App"), developed by <strong>HooQii</strong>. 
+            NyaWallet was built from the ground up as a <strong>cozy, stress-free, and privacy-first</strong> financial management application.
+          </p>
+          <p class="mt-2">
+            Our fundamental architecture is <strong>100% Offline-First</strong>. We believe your private financial records, wallet balances, debt tracking, and savings goals belong exclusively to you. We do not operate external database servers to store, analyze, or monetize your personal financial life.
+          </p>
+        </section>
+
+        <section class="bg-amber-50/60 p-6 rounded-2xl border border-amber-100">
+          <h2 class="text-lg font-bold text-amber-900 mb-2">🐾 The "Zero Data Collected" Guarantee</h2>
+          <ul class="list-disc list-inside space-y-1.5 text-amber-800 text-sm">
+            <li><strong>No User Account / No Email Collection</strong>: You do not need to sign up, log in, or provide an email address, phone number, or password to use NyaWallet.</li>
+            <li><strong>No Bank Account Credentials</strong>: NyaWallet does not connect to open-banking APIs or request bank credentials. All transactions are logged locally by you.</li>
+            <li><strong>No Location Tracking</strong>: We never request or collect GPS or device geolocation data.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-bold text-nyaDark mb-3">2. Data Storage & On-Device Security</h2>
+          <p>
+            All financial entries, wallets, categories, budgets, debt records, and target goals are saved securely directly in your device's local storage (via encrypted device sandbox / local database).
+          </p>
+          <p class="mt-2">
+            If you uninstall the app or clear app data without performing a local backup, your on-device financial records will be permanently erased. You may use our built-in <strong>Local Backup & Export</strong> feature to export your data as an encrypted file or JSON format to your own personal storage.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-bold text-nyaDark mb-3">3. Third-Party Services & Advertising (Google AdMob)</h2>
+          <p>
+            To keep NyaWallet free for everyone, the free tier of the app displays non-intrusive advertisements served through <strong>Google AdMob</strong>.
+          </p>
+          <p class="mt-2">
+            Google AdMob and its advertising partners may use device-level identifiers (such as Google Advertising ID or Apple Identifier for Advertisers IDFA) to serve ads and prevent fraudulent traffic. We integrate the <strong>Google User Messaging Platform (UMP)</strong> to comply with international regulations including GDPR (European Union) and CCPA/CPRA (United States):
+          </p>
+          <ul class="list-disc list-inside mt-2 space-y-1 text-gray-600">
+            <li>You have full control over your advertising consent choices via the GDPR consent dialog in App Settings.</li>
+            <li>Subscribers of NyaWallet Premium enjoy a <strong>100% ad-free experience</strong>, where ad requests are completely disabled.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-bold text-nyaDark mb-3">4. iOS Widgets & App Groups</h2>
+          <p>
+            NyaWallet supports iOS 17 and iOS 18 Home Screen widgets. To display your daily summary and total balance on your home screen, the app shares summarized numerical values locally on your device using Apple's standard App Group container (`group.com.example.nyawallet`). No widget data is transmitted over the internet.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-bold text-nyaDark mb-3">5. Children's Privacy</h2>
+          <p>
+            NyaWallet is suitable for general audiences and does not knowingly collect personally identifiable information from children under the age of 13.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-bold text-nyaDark mb-3">6. Changes to this Policy</h2>
+          <p>
+            We may occasionally update this Privacy Policy to reflect app enhancements or legal requirements. Any modifications will be posted here with an updated effective date.
+          </p>
+        </section>
+
+        <section class="border-t border-gray-100 pt-6">
+          <h2 class="text-xl font-bold text-nyaDark mb-2">7. Contact the Developer</h2>
+          <p>
+            If you have questions, feedback, or need assistance regarding your privacy and NyaWallet, feel free to reach out directly to the developer:
+          </p>
+          <div class="mt-4 p-4 rounded-xl bg-orange-50/50 inline-block">
+            <p class="font-semibold text-nyaDark">HooQii (NyaWallet Developer)</p>
+            <p class="text-nyaPeach font-medium">Email: <a href="mailto:hooqii.me@gmail.com" class="underline hover:text-red-400">hooqii.me@gmail.com</a></p>
+            <p class="text-gray-500 text-xs mt-1">Authorized AdMob Publisher: pub-8338019036731602</p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-orange-100 bg-white/60 py-8 text-center text-xs text-gray-500">
+    <div class="max-w-4xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0">
+      <p>© 2026 NyaWallet by HooQii. All rights reserved.</p>
+      <div class="space-x-4">
+        <a href="index.html" class="hover:text-nyaPeach transition">Home</a>
+        <a href="privacy.html" class="text-nyaPeach font-semibold">Privacy Policy</a>
+        <a href="terms.html" class="hover:text-nyaPeach transition">Terms of Service</a>
+        <a href="app-ads.txt" class="hover:text-nyaPeach transition font-mono">app-ads.txt</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
